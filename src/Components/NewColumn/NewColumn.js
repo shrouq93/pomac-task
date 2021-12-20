@@ -1,7 +1,7 @@
 import React , {Component , Fragment} from 'react' ;
 import './NewColumn.css' ;
 import {FontAwesomeIcon } from "@fortawesome/react-fontawesome" ;
-import {faEllipsisH} from "@fortawesome/fontawesome-free-solid";
+import {fa,faEllipsisH} from "@fortawesome/fontawesome-free-solid";
 window.values = []; 
  
 class NewColumn extends Component {
@@ -58,7 +58,7 @@ this.state={
           // btn-close <FontAwesomeIcon icon={faEllipsisH}/> ;
        // iTag.insertAdjacentHTML("afterend", <FontAwesomeIcon icon={faEllipsisH}/>);
 
-        // btn.innerHTML +=<FontAwesomeIcon icon={faEllipsisH}/>;
+      //  btn.innerHTML =<FontAwesomeIcon icon= {fa,faEllipsisH}/>;
  
 
 
