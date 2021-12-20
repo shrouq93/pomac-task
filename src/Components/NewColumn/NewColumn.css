@@ -1,0 +1,124 @@
+#overlay{
+    overflow: auto;
+    position: fixed;
+    z-index: 4;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    background-color:rgba(0,0,0,0.45);
+    /* @media (min-width : 320px) and (max-width : 480px) {
+           overflow:auto     
+      } */
+}
+#columnModal {
+    margin: 60px ;
+    width : 350px ;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    background-color: white;
+    z-index: 2 ;
+  
+    
+}
+#columnModal h4 {
+  font-weight: 500 ;
+  text-align: left;
+  line-height: 2px ;
+  padding: 0 5px 20px 10px;
+  border-bottom: 1px solid #ddd; 
+}
+#columnModal label {
+    float: left;
+    padding: 0 10px ;
+ }
+ #columnModal input[type=text] {
+  line-height: 2px;
+  width: 90%;
+  margin: 0px 5px ;
+  padding: 10px ;
+  border : 1px solid #bbb6b6;
+}
+
+
+#columnModal span {
+    color : red;
+    font-size: 12px ;
+    float: left;
+    padding: 0 10px ;
+}
+#columnModal input[type="button"]  , #columnModal input[type="submit"]{
+    background-color: #7680d5;
+    border: transparent ;
+    padding: 8px 15px  ;
+    margin: 0 5px ;
+}
+
+#columnModal input[type="submit"] {
+    background-color: #bbb6b6;
+}
+
+.appear {
+    display: inline-block;
+}
+
+.disappear {
+    display: none; 
+}
+
+ .myrow {
+     width: 100%;
+     height: 200px;
+     margin-top : 90px ;
+     
+ }
+ .content {
+    width : 300px;
+    margin: 30px;
+    display: none;
+    float: left;
+    box-sizing: border-box;
+    background-color: white;
+    padding : 15px ; 
+}
+
+.tasks {
+  height: 60px;
+  width : 100% ;
+  display: none;
+  padding : 1px 0 ; 
+  float: left;
+
+}
+.tasks h1 {
+    color : #7680d5;
+    font-weight: bold; 
+    font-size: 20px ;
+    padding: 2px 8px ;
+   
+} 
+
+ .btn-close {
+     float: right;
+     position: relative;
+     bottom : 36px;
+     right: 0px;
+     padding: 10px;
+     font-size: 15px ; 
+     color : #3f6099;
+     line-height: 2px;
+     font-weight: bold;
+     border : none ;
+     background-color:  #f1f3ff;
+     display: none;
+    
+ }
+
+/*  
+ @media (min-width : 320px) and (max-width : 480px) {
+    .content {
+        width:80%;
+        }
+  } */
+
+  /* media query with styled component */

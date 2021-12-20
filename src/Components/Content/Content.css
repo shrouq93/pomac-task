@@ -1,0 +1,14 @@
+ 
+ 
+.show {
+    display: inline-block;
+}
+
+.hide {
+    display: none; 
+}
+
+
+.space{
+    padding: 1px ;
+  }

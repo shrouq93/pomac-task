@@ -1,0 +1,279 @@
+#overlay{
+    overflow: auto;
+    position: fixed;
+    z-index:4;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    background-color:rgba(0,0,0,0.45);
+    /* @media (min-width : 320px) and (max-width : 480px) {
+        overflow:auto     
+   } */
+}
+
+#taskModal {
+    margin: 60px ;  
+    width : 350px ;
+    line-height: 30px;
+    border: 1px solid #ddd;
+    background-color: white;
+    z-index: 2 ;
+    
+}
+
+#taskModal h4 {
+    font-weight: 500 ;
+    text-align: left;
+    line-height: 2px ;
+    padding: 0 5px 20px 10px;
+    border-bottom: 1px solid #ddd; 
+  }
+
+#taskModal label {
+      float: left;
+      padding: 0 10px ;
+   }
+
+#taskModal input[type=text] {
+    line-height: 2px;
+    width: 90%;
+    margin: 0px 5px ;
+    padding: 10px ;
+    border : 1px solid #bbb6b6;
+  }
+  
+#taskModal textarea {
+    width: 90%;
+    height: 50px;
+    margin: 0px 5px ;
+    padding: 5px 10px ;
+    border : 1px solid #bbb6b6;
+}
+
+#taskModal textarea:focus {
+    outline: none;
+    }
+
+#taskModal select {
+    width: 95%;
+    height: 40px;
+    margin: 0px 5px ;
+    padding: 10px ;
+    border : 1px solid #bbb6b6;
+}
+
+#taskModal select:focus {
+    outline: none;
+    }
+
+#taskModal input[type="date"] {
+    width: 95%;
+    height: 40px;
+    margin: 0px 5px ;
+    
+    border : 1px solid #bbb6b6;
+}
+ #taskModal span {
+      color : red;
+      font-size: 12px ;
+      float: left;
+      padding: 0 10px ;
+  }
+  #taskModal input[type="button"]  , #taskModal input[type="submit"]{
+      background-color: #7680d5;
+      border: transparent ;
+      padding: 8px 15px  ;
+      margin: 0 5px ;
+  } 
+  
+#taskModal h4 {
+  font-weight: 500 ;
+  text-align: left;
+  line-height: 2px ;
+  padding: 0 5px 20px 10px;
+  border-bottom: 1px solid #ddd; 
+}
+
+#taskModal label {
+    float: left;
+    padding: 0 10px ;
+ }
+
+  #taskModal input[type=text] {
+  line-height: 2px;
+  width: 90%;
+  margin: 0px 5px ;
+  padding: 10px ;
+  border : 1px solid #bbb6b6;
+}  
+ 
+ #taskModal .fileLabel{
+    background-color:#eb2e2e; 
+    color:white;
+    border-radius :5% ; 
+    font-weight: bold;
+    height: 30px ;
+    width: 120px ; 
+    position: relative;
+    left: 30%;
+    margin : 5px 0px
+} 
+
+
+#taskModal span {
+    color : red;
+    font-size: 12px ;
+    float: left;
+    padding: 0 10px ;
+}
+#taskModal input[type="button"]  , #taskModal input[type="submit"]{
+    background-color: #7680d5;
+    border: transparent ;
+    padding: 8px 15px  ;
+    margin: 0 5px ;
+     
+}
+
+#taskModal input[type="submit"] {
+    background-color: #bbb6b6;
+}
+
+input[type="submit"] {
+      background-color: #bbb6b6;
+  }
+  
+  .show {
+    display: inline-block;
+}
+
+.hide {
+    display: none; 
+}
+
+ .tasks2 {
+  width : 100% ;
+  display: none;
+  outline: 1px solid #dbe2e3;
+  float: left; 
+}
+
+.tasks2 h4 {
+    color : black;
+    font-weight: bold; 
+    font-size: 20px ;
+    padding: 0px 8px ;
+    float: left;
+    text-align: left;
+}  
+
+.tasks2 p  {
+  text-align: left;
+  float: left;
+  padding :0px 10px ;
+}
+.tasks2 span  {
+  float: left;
+  padding :10px ;
+  font-size: 12px ;
+  color : grey ; 
+  display: none;
+  }
+  .opt_img {
+    height: 20px ; 
+    width: 20px;
+    padding: 2px ;
+    border-radius: 50px; 
+    float: right;
+    margin: 8px;
+    display: none;
+  }
+   .fileImg {
+       display: inline-block;
+       width: 90%; 
+       margin:auto;
+   }
+
+   #fileImage {
+       display: none;
+       width: 90%;
+       height: 140px;
+   }
+  #fileImg {
+      display: none;
+  }
+   .taskImg { 
+    /* display:none; */
+    width: 100%;
+    height: 140px;
+   }
+
+   .taskbtns {
+       margin-top:50px;
+       margin-bottom: 5px;
+   }
+
+  .title_btn_task , .bottom_task {
+       height: 60px;
+       width: 100%;
+      float: left;
+   }
+
+   .task_btn {
+      float: right;
+      margin :  15px 0px 3px 0px ; 
+      border: none; 
+      padding: 15px;
+      background-color: transparent;
+   }
+   
+ 
+button:disabled {
+    background-color: #b9b9ba;
+    color :#4d729f;
+}
+
+.bottom_task {
+  height:40px;
+}
+
+#updateBTN { 
+    display: none;
+    background-color: #bbb6b6;
+}
+
+/* Update Style  */
+li.updatedTasks {
+    display: inline;
+    list-style-type: none;
+    outline: 1px solid #dbe2e3;
+    float: left; 
+    width : 100% ;
+     
+}
+  
+.updatedTasks h4 {
+      color : black;
+      font-weight: bold; 
+      font-size: 20px ;
+      width:100%;
+      margin: 1px;
+      padding: 30px 0px  2px 0px;
+      float: left;
+      text-align: left;
+    
+      
+  }  
+  
+  .updatedTasks p  {
+    float: left;
+    text-align: left;
+    padding :0px 10px ;
+  }
+  .updatedTasks span  {
+    float: left;
+    padding :10px ;
+    font-size: 12px ;
+    color : grey ; 
+    display: none;
+    }

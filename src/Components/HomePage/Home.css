@@ -1,0 +1,93 @@
+.Home {
+    margin: 0px;
+    width:calc(100% - 105px) ;
+   height: 100%;
+    float: right;
+}
+
+.Home h1 {
+    text-align: left;
+    padding: 60px 40px 40px 40px ;
+    font-weight: 500 ;
+    font-size:22px; 
+    color: #4d4c4c;
+}
+
+
+input[type=text]:focus {
+    outline: none;
+}
+
+.search input {
+    width: 100%;
+    padding: 20px 40px 24px 35px;
+    border:transparent;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    display: inline-block;
+  }
+
+.search button {
+    float: right;
+    color :white;
+    background: #7680d5;
+    padding :10px 30px ;
+    margin: 20px; 
+    border: transparent;
+    font-weight: 300 ;
+}
+
+.searchIcon {
+    width:135px ; 
+    height: 55px;
+    float: right;
+    z-index: 3;
+    position: absolute;
+    top:15px;
+    left: 55px ;
+    color :#cdc8c8;
+}
+
+.searchIcon svg {
+    font-size: 12px ;
+    z-index: 1;
+}
+
+.profile {
+    width:135px ; 
+    height: 55px;
+    float: right;
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    right : 2px ;
+}
+
+.profile span {
+    float: left;   
+}
+
+.profile span:nth-of-type(1){
+   font-size: 12px;
+   margin: 15px 0px 5px 0px ;
+   font-weight: bold ;
+   color :#7680d5;
+   text-decoration: none;
+    
+ }
+.profile span:nth-of-type(2){
+   font-size: 10px ;
+   margin : 0px 27px ;
+   font-weight: 500;
+   color :#a3affd;
+}
+.profile .avatar {
+    margin: 6px 0 ;
+    height:45px ;
+     width:45px;
+     border-radius: 50px ;
+     float: right;
+     margin-right: 2px ;
+}
+
